@@ -1,0 +1,19 @@
+GET http://localhost:8000
+
+
+###DATA ENDPOINT
+
+GET http://localhost:8000/api/data
+### DATA ENDPOINT FOR ADDING A USER
+
+POST http://localhost:8000/api/data
+Content-Type: application/json
+
+{
+    "name": "gilmoh"
+}
+
+
+### DELETE END POINT
+
+DELETE http://localhost:8000/api/data
